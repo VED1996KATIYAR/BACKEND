@@ -1,0 +1,25 @@
+File & Directory Management
+
+- `mkdir` → “Create exactly this folder”
+- `mkdir -p` → “Make sure this whole path exists”
+
+--------------------------------------------------------
+## `rmdir` — *Remove empty directory*
+
+### What it does
+
+Deletes a folder **only if it’s empty**.
+
+--------------------------------------------------
+## `rm` — *Remove files or directories*
+
+### What it does
+
+Deletes files permanently.
+
+-------------------------------------------------
+## `touch` — *Create empty file*
+
+### What it does
+
+Creates an empty file **or updates timestamp**.
