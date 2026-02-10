@@ -1,0 +1,15 @@
+BASIC NAVIGATION COMMANDS
+
+pwd-Shows exactly where you are in the filesystem.
+-------------------------------------------------------------
+
+ls-Shows files and folders in the current directory.
+ls -l # detailed info (permissions, size, date)
+ls -a # includes hidden files
+ls -la # both together
+---------------------------------------------------------------
+
+cd folder:Moves you from one folder to another.
+cd .. # go to parent
+cd ~ # go to home
+cd / # go to root
