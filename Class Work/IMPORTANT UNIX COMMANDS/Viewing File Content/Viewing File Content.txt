@@ -1,0 +1,11 @@
+Viewing File Content
+
+cat — Concatenate / display file
+
+less — View large files safely
+
+## `man` — *Manual*
+
+### What it does
+
+Shows official documentation of a command.
