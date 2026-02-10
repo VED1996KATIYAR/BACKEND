@@ -1,0 +1,49 @@
+STEP-1 cd Downloads
+Step-2 touch organize.sh
+       nano organize.sh
+Step-3
+      # Create folders if they don't exist
+mkdir -p Images Documents Videos Music Archives
+
+# Loop through each file in the folder
+for file in *; do
+    case "$file" in
+
+        .jpg|.png)
+            mv "$file" Images/
+            ;;
+
+        .pdf|.docx|*.txt)
+            mv "$file" Documents/
+            ;;
+
+        .mp4|.mkv)
+            mv "$file" Videos/
+            ;;
+
+        *.mp3)
+            mv "$file" Music/
+            ;;
+
+        .zip|.rar)
+            mv "$file" Archives/
+            ;;
+
+        *)
+            # Do nothing for other files
+            ;;
+    esac
+done
+
+echo "Downloads folder organized successfully!"
+
+
+
+Step-4   Press CTRL + O(What a while) → Enter(Wait a while)
+
+         Press CTRL + X(Wait a while
+
+Step-5   chmod +x organize.sh
+
+
+Step-6   ./organize.sh
